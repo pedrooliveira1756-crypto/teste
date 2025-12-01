@@ -10,11 +10,11 @@
     <input type="color" id="input">
     <input type="text" id="nome">
     <button onclick="n()">Clique aqui</button>
-
+    
     <div id="caixa">
         <h1 id="texto"></h1>
     </div>
-
+-
     <script>
         function n() {
             let cor = document.getElementById("input").value
@@ -28,9 +28,10 @@
             caixa.style.alignItems = "center";
             caixa.style.justifyContent = "center";
             caixa.style.height = "1000px";
-            caixa.style.width = "50%";
+            caixa.style.width = "90%";
             caixa.style.margin = "auto"
 
+            /*
             texto.style.background = "linear-gradient(90deg, red, yellow, green, purple)";
             texto.style.webkitBackgroundClip = "text";
             texto.style.color = "transparent";
@@ -43,11 +44,14 @@
                     100% { background-position: 400%; }
                 }
             `;
+            
             document.head.appendChild(style);
 
             texto.style.animation = "slide 6s linear infinite";
+            */
         }
     </script>
 
 </body>
+
 </html>
